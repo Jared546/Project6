@@ -22,3 +22,8 @@ document.addEventListener("keydown", function(e) {
  document.getElementById("Charizard").setAttribute("y", CharizardY)
   }
 })
+
+var Food1X=Number(document.getElementById("Food1").getAttribute("x"));
+ var Food1y=Number(document.getElementById("Food1").getAttribute("y"));
+ var Food2X=Number(document.getElementById("Food2").getAttribute("x"));
+ var Food2y=Number(document.getElementById("Food2").getAttribute("y"));
